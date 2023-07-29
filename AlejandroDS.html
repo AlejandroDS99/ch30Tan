@@ -7,33 +7,36 @@
     <meta name="viemport" content="width,initial-scale=1.0"> <!-- configuracion para optimizar en dispositivos móviles, pero no resuelve el responsive -->
     <meta name="description" content="Aquí encontrarás información de Alejandro Díaz">
 
-
     <title> AlejandroDS </title>
-    <LINK rel stylesheet href="./assets/Styles/stylesADS.css"
-    <LINK rel="icon" href="./assets/img/bateria.png">
+    <LINK rel="icon" href="./assets/img/bateria.png"> 
+    <link rel="stylesheet" href="./assets/Styles/StylesADS.css">
 
    
     
 </head>
 
 <body> 
-    <h1>  <img src="./assets/img/IMG-20220906-WA0003.jpg" </h1>
-      <p> Alejandro Diaz Salmeron es un desarrollador web en curso, nació el 20 de febrero de 1999 en la ciudad de México.</p>
-      
-   
-     <h2> Logros </h2>
-      <p> Culminó el bachillerato en el Colegio de Ciencias y Humanidades plantel Oriente de la UNAM a sus 17 años. Estudio 8 semestres la licenciatura de Médicina Veterinaria y Zootecnia en la Facultad de Estudios Superiores Cuautitlan, también perteneciente a la Uiversidad Nacional Autónoma de México. En 2023 presentó y fue aceptado para iniciar un bootcamp en Generetaion México. </p>
+       <div class="contenedor"> 
+              <div>
+                 <h1> </h1>
+                    <p> Alejandro Diaz Salmeron es un desarrollador web en curso, nació el 20 de febrero de 1999 en la ciudad de México.</p>
+                <h2> <u>Logros</u> </h2>
+                   <p> Culminó el bachillerato en el Colegio de Ciencias y Humanidades plantel Oriente de la UNAM a sus 17 años. Estudio 8 semestres la licenciatura de Médicina Veterinaria y Zootecnia en la Facultad de Estudios Superiores Cuautitlan, también perteneciente a la Uiversidad Nacional Autónoma de México. En 2023 presentó y fue aceptado para iniciar un bootcamp en Generetaion México. </p>
+              </div>
+              <img class="pequeña" src="./assets/img/IMG-20220906-WA0003.jpg" >          
+        </div>  
 
-     <h3> Bebidas favoritas </h3>
-        <ul>
-            <li> Agua de alfalfa </li>
-            <li> Sangria preparada </li>
-            <li> Pulque </li>
-            <li> Crema de coco </li>
-            <li> Yakult </li>
-            <li> Atole de galleta </li>
-        </ul>
-      <h4> Canciones favoritas del momento </h4>
+    <h3 class="bebidas"> <u>Bebidas favoritas</u> </h3>
+          <ul>
+             <li> Agua de alfalfa </li>
+             <li> Sangria preparada </li>
+             <li> Pulque </li>
+             <li> Crema de coco </li>
+             <li> Yakult </li>
+             <li> Atole de galleta </li>
+           </ul>
+
+    <h4> <u>Canciones favoritas del momento </u> </h4>
         <ol> 
             <li> <a href="https://www.youtube.com/watch?v=pDDQN8W6v1w">Cadaveria - Mägo de oz</a> </li>
             <li> <a href="https://www.youtube.com/watch?v=65qjU0gEXX4">El vals del obrero - Ska-P</a> </li>
@@ -42,31 +45,143 @@
             <li> <a href="https://www.youtube.com/watch?v=CnQ8N1KacJc">Good Riddance - Green Day</a></li>
         </ol>
 
-    <h5> Definiciones 
-      <div>
+    <h5> <u>Definiciones </u>
         <dl>
-          <dt> función </dt>
-          <dd> Una <b href="https://blog.hubspot.es/website/funciones-javascript#:~:text=Una%20funci%C3%B3n%20en%20JavaScript%20es,building%20blocks%20fundamentales%20de%20JavaScript.">Función</b> en JavaScript es un bloque de código o un conjunto de instrucciones que realiza una tarea específica y que puede reutilizarse a voluntad.</dd>
-          <dt> let </dt>
-          <dd> <b href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/let">let</b> permite declarar variables limitando su alcance (scope) al bloque, declaración, o expresión donde se está usando. </dd>
-          <dt> Const </dt>
-          <dd> Con <b href="https://yeisondaza.com/var-let-y-const-en-javascript">const</b> definimos variables de sólo lectura (no confundir con inmutables), esto quiere decir que, cuando asignamos una variable, el nombre de esta va estar asignada a un puntero en memoria, el cual no puede ser sobreescrito o reasignado.</dd>
-          <dt> </dt>
-          <dd> </dd>
-          <dt> </dt>
-          <dd> </dd>
-          <dt> </dt>
-          <dd> </dd>
+          <dt> <i>función</i> </dt>
+          <dd> Una <a href="https://blog.hubspot.es/website/funciones-javascript#:~:text=Una%20funci%C3%B3n%20en%20JavaScript%20es,building%20blocks%20fundamentales%20de%20JavaScript.">Función</a> en JavaScript es un bloque de código o un conjunto de instrucciones que realiza una tarea específica y que puede reutilizarse a voluntad.</dd>
+          <dt> <i>let</i> </dt>
+          <dd> <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/let">let</a> permite declarar variables limitando su alcance (scope) al bloque, declaración, o expresión donde se está usando. </dd>
+          <dt> <i>Const</i> </dt>
+          <dd> <a href="https://yeisondaza.com/var-let-y-const-en-javascript">const</a> definimos variables de sólo lectura (no confundir con inmutables), esto quiere decir que, cuando asignamos una variable, el nombre de esta va estar asignada a un puntero en memoria, el cual no puede ser sobreescrito o reasignado.</dd>
+          <dt> <i>del</i> </dt>
+          <dd> <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/del">del</a> (deleted-borrado) marca las partes de un texto o documento que han sido suprimidas o sustituidas. </dd>
+          <dt> <i>ins</i> </dt>
+          <dd> <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/ins">ins</a> (insertado) marca las partes de un texto que han sido añadidos al documento. </dd>
+          <dt> <i>audio</i> </dt>
+          <dd> <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/audio">audio</a> se usa para insertar contenido de audio en un documento HTML o XHTML. </dd>
         </dl>
-      </div>
 
-    </h5>
+      
 
-    <h6> </h6>
-
-
-
-
-
+    <h6> <u>El mundo</u> </h6>
+        <ul>
+          <li class="continentes"> America </li>
+             <ul>
+                <li> Estados Unidos </li>
+                    <ul> 
+                      <li> Washington </li>
+                    </ul>
+                <li> México </li>
+                    <ul> 
+                      <li> Ciudad de México </li>
+                    </ul>                   
+                <li> Brasil </li>
+                    <ul> 
+                      <li> Brasilia </li>
+                    </ul>                   
+                <li> Ecuador </li>
+                    <ul> 
+                      <li> Quito </li>
+                    </ul>
+                <li> Peru </li>
+                    <ul> 
+                      <li> Lima </li>
+                    </ul>                       
+              </ul>
+          <li class="continentes"> Asia </li>
+              <ul> 
+                <li> China </li>
+                    <ul> 
+                      <li> Pekin </li>
+                    </ul>                 
+                <li> Japon </li>
+                    <ul> 
+                      <li> Tokio </li>
+                    </ul>                
+                <li> Rusia </li>
+                    <ul> 
+                      <li> Moscú </li>
+                    </ul>               
+                <li> Corea del sur </li>
+                    <ul> 
+                      <li> Seul </li>
+                    </ul>               
+                <li> India </li>
+                    <ul> 
+                      <li> Nueva Delhi </li>
+                    </ul>               
+              </ul>            
+          <li class="continentes"> Africa </li>
+              <ul> 
+                <li> Egipto </li>
+                    <ul> 
+                      <li> El Cairo </li>
+                    </ul>               
+                <li> Sudafrica </li>
+                    <ul> 
+                      <li> Ciudad del Cabo </li>
+                      <li> Pretoria </li>
+                      <li> Bloemfontein </li>
+                    </ul>               
+                <li> Senegal </li>
+                    <ul> 
+                      <li> Dakar </li>
+                    </ul>               
+                <li> Nigeria </li>
+                    <ul> 
+                      <li> Abuya </li>
+                    </ul>               
+                <li> Marruecos </li>
+                    <ul> 
+                      <li> Rabat </li>
+                    </ul>               
+              </ul>            
+          <li class="continentes"> Europa </li>
+              <ul> 
+                <li> Alemania </li>
+                    <ul> 
+                      <li> Berlín </li>
+                    </ul>               
+                <li> Austria </li>
+                    <ul> 
+                      <li> Viena </li>
+                    </ul>               
+                <li> Suecia </li>
+                    <ul> 
+                      <li> Estocolmo </li>
+                    </ul>               
+                <li> Islandia </li>
+                    <ul> 
+                      <li> Reikiabik </li>
+                    </ul>               
+                <li> Inglaterra </li>
+                    <ul> 
+                      <li> Londres </li>
+                    </ul>               
+              </ul>            
+          <li class="continentes"> Oceania </li>
+              <ul> 
+                <li> Australia </li>
+                    <ul> 
+                      <li> Sidney </li>
+                    </ul>               
+                <li> Nueva Zelanda </li>
+                    <ul> 
+                      <li> Wellington </li>
+                    </ul>               
+                <li> Fiyi </li>
+                    <ul> 
+                      <li> Suva </li>
+                    </ul>               
+                <li> Tonga </li>
+                    <ul> 
+                      <li> Nukualofa </li>
+                    </ul>               
+                <li> Indonesia </li>
+                    <ul> 
+                      <li> Yakarta </li>
+                    </ul>               
+              </ul>          
+        </ul>
 
 </body>

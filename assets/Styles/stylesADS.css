@@ -1,14 +1,32 @@
 
-:any-link {
-    color:midnightblue;
+* {
+    background-color: aqua;
 }
 
+* {
+    font-size: 25px;
+}
 
+.contenedor {
+    display: flex;
+}
+
+img.pequeña {
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+}
 p {
-    text-align: left;
-    font-size: medium;
+    width: 650px;
+}
+:any-link {
+    color: rgb(255, 102, 150);
 }
 
-:any-link.b {
-   color:aqua;
+.continentes {
+    color:red
 }
+.subtitulos {
+    font-family: i;
+}
+
